@@ -8,7 +8,12 @@ import { FooterComponent } from './footer/footer.component';
 import { NaoEncontradoComponentComponent } from './nao-encontrado-component/nao-encontrado-component.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NaoEncontradoComponentComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NaoEncontradoComponentComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
